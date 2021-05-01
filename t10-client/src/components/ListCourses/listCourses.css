@@ -1,0 +1,73 @@
+#card-courses {
+  margin-top: 1rem;
+}
+
+.container-cards-courses {
+  margin-bottom: 3rem;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-color: #cecbcb;
+}
+
+.not-available {
+  color: red;
+  cursor: none;
+}
+
+.not-available:hover {
+  color: red;
+}
+
+.card-courses-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.card-courses-image:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card-courses-image h3 {
+  color: whitesmoke;
+  font-size: 2rem;
+  position: relative;
+  padding: 1rem;
+}
+
+.card-courses-image span {
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 0 0.5rem 0 1rem;
+  position: relative;
+}
+
+#color-view {
+  position: relative;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.not-on-courses {
+  margin: 1rem;
+  text-align: center;
+}

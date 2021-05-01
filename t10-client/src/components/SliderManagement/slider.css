@@ -1,0 +1,163 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 85vh;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 8rem;
+  height: 3rem;
+}
+
+.titleStyle {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: underline;
+  align-self: center;
+}
+
+.frameContainer {
+  display: flex;
+  margin: 0.8rem 0 0.8rem 0;
+  background-color: #cacacaaa;
+  border-radius: 1.5rem;
+  min-width: 16rem;
+  width: 50%;
+  height: 7rem;
+  justify-content: space-between;
+}
+
+.imgContainer {
+  width: auto;
+  height: 90%;
+  border-radius: 0.8rem;
+  align-self: center;
+  margin: 0 0 0 1.2rem;
+}
+
+.txtContainer {
+  margin: 0 1rem 0 1rem;
+  height: 80%;
+  width: 90%;
+  background-color: blue;
+}
+
+.txtStyle {
+  margin: 0 0.4rem 0 0.4rem;
+  border: 0.1rem solid black;
+  border-radius: 0.8rem;
+  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+  font-size: 0.8rem;
+  height: 80%;
+  width: 50%;
+  align-self: center;
+  overflow: auto;
+}
+
+.iconsContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-right: 0.5rem;
+  width: 2.2rem;
+  height: 90%;
+  justify-content: space-between;
+}
+
+.iconStyle {
+  font-size: 1.5rem;
+  margin: 1.5vh 0 1.5vh 0;
+  transition: 0.3s;
+}
+
+.iconStyle:hover {
+  font-size: 1.8rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.addImgStyle {
+  min-width: 16rem;
+  width: 40vw;
+  height: auto;
+}
+
+.addTitleStyle {
+  margin: 0.6rem 0 0 0.5rem;
+  padding: 0 0 0 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.areatextStyle {
+  margin: 0 0 0 0.5rem;
+  padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+  border-radius: 0.4rem;
+  width: 15rem;
+  height: 5rem;
+  resize: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: transparent;
+  border: 0.05rem solid black;
+  transition: 0.3s;
+}
+
+.areatextStyle1 {
+  margin: 0 0 0 0.5rem;
+  padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+  border-radius: 0.4rem;
+  width: 15rem;
+  height: 5rem;
+  resize: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: #f7c0c0;
+  border: 0.05rem solid #e54f4f;
+  transition: 0.3s;
+}
+
+.addBtnsContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0 2rem 0;
+  align-self: center;
+}
+
+.inputFileStyle {
+  margin: 1rem 0 0 0;
+  transition: 0.3s;
+  width: 17rem;
+}
+
+.inputFileStyle1 {
+  margin: 1rem 0 0 0;
+  transition: 0.3s;
+  width: 17rem;
+  background-color: #f7c0c0;
+  border-radius: 0.5rem;
+  border: 0.05rem solid #e54f4f;
+}
+
+.warnTxtStyle {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: red;
+}
+
+.btnStyle1 {
+  margin: 0 1rem 0 1rem;
+}

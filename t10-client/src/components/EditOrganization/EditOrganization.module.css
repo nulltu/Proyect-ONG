@@ -1,0 +1,36 @@
+.formLogin {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.formTitle {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+  background: none;
+  width: 100%;
+}
+
+.fieldCustom {
+  margin-bottom: 10px !important;
+}
+
+.rowImage {
+  display: flex;
+}
+
+@media (max-width: 471px) {
+  .rowImage {
+    text-align: center;
+    display: block;
+  }
+  .labelTwitter {
+    text-align: start;
+  }
+  .fieldImage {
+    width: 235px;
+  }
+}

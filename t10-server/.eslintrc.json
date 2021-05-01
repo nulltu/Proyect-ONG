@@ -1,0 +1,25 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "script"
+  },
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "linebreak-style": 0
+  },
+  "globals": {
+    "jest": true,
+    "describe": true,
+    "it": true,
+    "after": true,
+    "afterEach": true,
+    "before": true,
+    "beforeAll": true,
+    "beforeEach": true,
+    "afterAll": true,
+    "should": true,
+    "expect": true
+  }
+}

@@ -1,0 +1,38 @@
+.image {
+  max-width: 40rem;
+  max-height: 40rem;
+}
+
+.font {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 'text image';
+}
+
+@media only screen and (max-width: 1216px) {
+  .font {
+    font-size: 1rem;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      'image'
+      'text';
+  }
+
+  #image {
+    grid-column: image;
+    grid-row: image;
+  }
+  #text {
+    grid-column: text;
+    grid-row: text;
+  }
+}

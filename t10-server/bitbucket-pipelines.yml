@@ -1,0 +1,26 @@
+#  Template NodeJS build
+
+#  This template allows you to validate your NodeJS code.
+#  The workflow allows running tests and code linting on the default branch.
+
+image: node:14.15.4
+
+pipelines:
+  default:
+    - step:
+        name: Build
+        script:
+          - npm install
+          - npm run lint
+          - npm run test
+        services:
+          - mysql
+
+definitions:
+  services:
+    mysql:
+      image: mysql:5.7
+      variables:
+        MYSQL_DATABASE: 'ong'
+        MYSQL_ROOT_PASSWORD: 'password'
+        MYSQL_PASSWORD: 'password'

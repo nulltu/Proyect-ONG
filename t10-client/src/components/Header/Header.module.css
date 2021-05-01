@@ -1,0 +1,185 @@
+.body {
+  overflow: hidden;
+}
+
+.whiteHamburger span::after,
+.whiteHamburger span::before,
+.whiteHamburger span {
+  background-color: #fff;
+}
+
+.whiteHamburgerSpan {
+  background-color: #fff;
+}
+
+.header {
+  background-color: #fff;
+  position: sticky;
+  top: 0px;
+  padding: 5px;
+  min-height: 90px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  z-index: 111;
+  margin-bottom: 20px;
+}
+
+.hamburgerBtn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 10px 5px;
+  z-index: 100000;
+}
+
+.hamburgerBtn:focus-visible,
+.hamburgerBtn:focus {
+  outline: none;
+}
+
+.headerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.imageContainer {
+  width: 70px;
+  height: 70px;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+.navContainer,
+.userNavContainer {
+  position: fixed;
+  background: #fff;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  width: 100%;
+  padding: 1rem;
+  height: 100vh;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  line-height: 3;
+  overflow: auto;
+}
+
+.showNav {
+  transform: translateX(0) !important;
+  opacity: 1;
+}
+
+.navContainer li,
+.userNavContainer li {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.btn {
+  color: #fff;
+  margin-left: 10px;
+  position: absolute;
+  top: 18px;
+  right: 90px;
+}
+
+.profileBtn {
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.profileBtn:focus {
+  outline: none;
+}
+
+.profileBtnSm {
+  cursor: pointer;
+}
+
+.profileBtnLg {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .btn {
+    right: 25%;
+  }
+}
+
+@media (min-width: 768px) {
+  .hamburgerBtn {
+    display: none;
+  }
+
+  .navContainer {
+    position: relative;
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 0;
+    transform: translateX(0);
+    opacity: 1;
+    overflow: hidden;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+
+  .userNavContainer {
+    position: absolute;
+    top: 60px;
+    left: unset;
+    right: 0px;
+    padding: 0;
+    width: auto;
+    height: auto;
+    transform: translateY(-200%);
+    line-height: 1;
+  }
+
+  .navContainer li,
+  .userNavContainer li {
+    font-size: 0.89rem;
+  }
+
+  .btn {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+
+  .profileBtnSm {
+    display: none;
+  }
+
+  .profileBtnLg {
+    display: block;
+  }
+
+  .showUserMenu {
+    transform: translateX(0) !important;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  .navContainer li,
+  .userNavContainer li {
+    font-size: 1rem;
+  }
+}

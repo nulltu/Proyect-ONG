@@ -1,0 +1,30 @@
+.btnContainer {
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.welcomeText {
+  text-align: center;
+  margin: 45px 20%;
+}
+
+#content {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.date {
+  font-size: 1rem !important;
+}
+
+#container {
+  margin-top: 2rem !important;
+}

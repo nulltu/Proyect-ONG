@@ -1,0 +1,52 @@
+export const SUPPORTED_FORMATS = ['image/jpg', 'image/jpeg', 'image/png'];
+export const PATH_INSCRIPTION_USER = '/inscription/user';
+export const PATH_ENDPOINT_AUTH = '/auth/';
+export const PATH_ENDPOINT_USERS = '/users';
+export const PATH_ENDPOINT_SENDMAIL = '/contact';
+export const PATH_ENDPOINT_ENTRIES = '/entries';
+export const PATH_ENDPOINT_ORGANIZATION = 'organization';
+export const PATH_ENDPOINT_COURSES = '/courses';
+export const PATH_ENDPOINT_ONCOURSES = '/courses?onCourses=true';
+export const PATH_ENDPOINT_SLIDES = '/slides';
+export const PATH_ENDPOINT_HISTORY = '/history';
+export const PATH_ENDPOINT_INSCRIPTION = '/inscription';
+export const PATH_RESET_PASSWORD = 'reset-password';
+export const PATH_RECOVER_PASSWORD = 'password-recovery';
+export const PATH_ENDPOINT_ON_COURSES = '/oncourse';
+export const REGISTER_OK =
+  'Su registro se ha realizado con éxito, se le ha enviado la verificacion a su correo';
+export const UPDATED_OK = 'La actualización se ha realizado con éxito';
+export const SENDMAIL_VERIFICATION =
+  'Se ha enviado la verificacion a su correo';
+export const SENDMAIL_OK = 'Su mensaje se ha enviado con éxito';
+export const ENTRIES_CREATED = 'Se creo la entrada correctamente';
+export const ENTRIES_UPDATED = 'Se actualizo la entrada correctamente';
+export const HISTORY_CREATED = 'Se creo correctamente';
+export const HISTORY_UPDATED = 'Se actualizo correctamente';
+export const ENTRIES_DELETED = 'Se elimino la entrada correctamente';
+export const NO_CONTENT = 'El usuario fué eliminado con éxito';
+export const IMAGE_DELETED = 'La imagen fué eliminada con éxito';
+export const AUTH_SUCCESS = 'Bienvenido';
+export const DELETE_USER_ERROR = 'No se pudo eliminar el usuario';
+export const DELETE_COURSE = 'La capacitacion fue eliminada con exito';
+export const DELETE_INSCRIPTION = 'La inscripcion fue eliminada con exito';
+export const COURSES_CREATED = 'Capacitacion creada con exito';
+export const COURSES_UPDATED = 'Capacitacion editada con exito';
+export const ON_COURSES_CREATED = 'Cursada creada con exito';
+export const ON_COURSES_UPDATED = 'Cursada editada con exito';
+export const DELETE_ON_COURSE = 'Cursada eliminada cone exito';
+export const SENT_EMAIL =
+  'Enviamos un link de recuperacion a su casilla de email';
+export const PASSWORD_EDITED = 'Su contraseña fue modificada con exito';
+export const CREATED_INSCRIPTION =
+  'La inscripcion fue realizada con exito al curso seleccionado';
+export const STATUS_SUCCESS = 200;
+export const STATUS_CREATED = 201;
+export const STATUS_SEND = 202;
+export const STATUS_NO_CONTENT = 204;
+export const STATUS_UNAUTHORIZED = 401;
+export const STATUS_NOT_FOUND = 404;
+export const ADMIN = 1;
+export const NEWS = 'novedades';
+export const ACTIVITIES = 'actividades';
+export const RECAPTCHA_SITE_KEY = '6LeU6VUaAAAAAPNuAf14Xf1m18bXKcVQGBu5TWNJ';

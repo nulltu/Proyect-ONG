@@ -1,0 +1,9 @@
+.swipeContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.swipeImage {
+  height: 85vh;
+  width: 100%;
+}
