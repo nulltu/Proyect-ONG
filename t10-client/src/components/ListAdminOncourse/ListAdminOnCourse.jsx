@@ -90,6 +90,7 @@ const ListAdminOnCourse = ({ id }) => {
       dataIndex: 'schedule',
       key: 'schedule',
       render: (text) => {
+        // eslint-disable-next-line react/destructuring-assignment
         const formatText = text ? text.split('-') : '';
         return (
           <p>
